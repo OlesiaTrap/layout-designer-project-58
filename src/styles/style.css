@@ -1,7 +1,31 @@
 /** CSS STYLE **/
 
+
+@font-face {
+  font-family: Open Sans;
+  src: url("../fonts/OpenSans-Regular.ttf");
+   }
+
+@font-face {
+  font-family: Open Sans;
+  src: url("../fonts/OpenSans-Bold");
+   }
+
+@font-face {
+  font-family: Neucha;
+ src: url("../fonts/Neucha-Regular.ttf");
+   }
+
 .hello {
   display: block;
 
   color: #fff;
+}
+
+h1 {
+ font-family: Neucha;
+ font-weight: 400;
+ font-size: 72px;
+ line-height: 86,4px;
+    	
 }
