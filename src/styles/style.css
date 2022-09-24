@@ -16,16 +16,144 @@
  src: url("../fonts/Neucha-Regular.ttf");
    }
 
-.hello {
-  display: block;
-
-  color: #fff;
+body {
+	margin: 0;
 }
 
-h1 {
- font-family: Neucha;
- font-weight: 400;
- font-size: 72px;
- line-height: 86,4px;
+.allheader {
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.allheader::before {
+content: "";
+position: absolute;
+width: 1440px;
+height: 914px;
+left: 0px;
+top: 0px;
+background-image: url("../images/background.png");
+opacity: 0.06;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.picturemain {
+position: absolute;
+width: 1082.81px;
+height: 525px;
+left: 461px;
+top: 55px;
+
+}
+
+
+.hfirstpart {
+position: absolute;
+width: 1138px;
+height: 177.12px;
+left: 165px;
+top: 100px;
+
+font-family: 'Neucha';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 86px;
+
+color: #FE8A02;
     	
+}
+
+.hsecondpart {
+	
+position: absolute;
+width: 1138px;
+height: 73.71px;
+left: 165px;
+top: 284.29px;
+
+font-family: 'Neucha';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 100%;
+
+color: #2A2626;
+
+}
+
+.header-text {
+display: flex;
+
+padding-top: 165px;
+column-gap: 30px;
+align-items: flex-end;
+
+}
+
+.left-columns {
+position: absolute;
+width: 540px;
+height: 141px;
+left: 165px;
+top: 543px;
+	
+}
+
+.right-columns {
+position: absolute;
+width: 540px;
+height: 186px;
+left: 735px;
+top: 539px;
+}
+
+
+.p-header {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #2A2626;
+}
+
+.button {
+position: absolute;
+width: 148px;
+height: 49px;
+left: 735px;
+top: 765px;
+background: #FE8A02;
+}
+
+.button-text {
+position: absolute;
+width: 101px;
+height: 26px;
+left: 24px;
+top: 11px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+text-decoration: none;
+}
+
+
+
+.button:hover {
+	background-color: #ea7600;
 }
