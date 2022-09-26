@@ -53,25 +53,8 @@ top: 55px;
 }
 
 
-.hfirstpart {
-position: absolute;
-width: 1138px;
-height: 177.12px;
-left: 165px;
-top: 100px;
 
-font-family: 'Neucha';
-font-style: normal;
-font-weight: 400;
-font-size: 72px;
-line-height: 86px;
-
-color: #FE8A02;
-    	
-}
-
-.hsecondpart {
-	
+.black-class {
 position: absolute;
 width: 1138px;
 height: 73.71px;
@@ -83,9 +66,22 @@ font-style: normal;
 font-weight: 400;
 font-size: 72px;
 line-height: 100%;
+color: #2A2626;	
+}
 
-color: #2A2626;
+.orange-part {
+color: #FE8A02;
+position: absolute;
+width: 1138px;
+height: 177.12px;
+left: 165px;
+top: 100px;
 
+font-family: 'Neucha';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 86px;
 }
 
 .header-text {
